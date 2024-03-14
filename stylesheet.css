@@ -4,6 +4,10 @@
     background-color: #2ca9e1;
 }
 
+#item-list {
+    list-style: none;
+}
+
 #footer {
     width: auto;
     height: 80px;
