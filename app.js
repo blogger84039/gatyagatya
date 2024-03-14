@@ -2,8 +2,8 @@ const SHOW = document.getElementById('show_01');
 const BTNCLK = document.getElementById('button_01');
 
 BTNCLK.addEventListener('click', () => {
+    alert('結果は…!');
     let random = Math.floor(Math.random() * 100) + 1;
-    console.log(random);
     if (random < 2) {
         SHOW.innerHTML = '神レア!!!!!!';
     } else if (2 <= random && random < 17) {
