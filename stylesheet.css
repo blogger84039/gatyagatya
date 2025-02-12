@@ -1,11 +1,35 @@
+html, body {
+    height: 100%;
+}
+
 #header {
     width: auto;
     height: 100px;
     background-color: #6495ed;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex: 1;
+    width: 100%;
+}
+
+#content {
+    grid-column-start: 2;
+}
+
+#perList {
+    width: 300px;
+}
+
 #item-list {
     list-style: none;
+}
+
+#show_01 {
+    width: 300px;
 }
 
 #footer {
